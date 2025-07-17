@@ -1,0 +1,57 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Flask
+instance/
+*.log
+
+# Virtual environment
+*.venv/
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+
+# Package files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+*.whl
+
+# Scripts
+create_gitignore.py
+structure_file.py
+
+# Other
+*.bak
+*.swp
+*~
